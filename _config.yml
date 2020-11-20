@@ -1,6 +1,11 @@
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Central Coast Pharmacy Services" # the name of your site, e.g. ACME Corp.
+description: "At Central Coast Pharmacy Services, we understand it takes compassion to provide you with quality services that you deserve in fulfilling your medication needs."
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 defaults:
   - scope:
