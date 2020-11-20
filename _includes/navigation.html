@@ -1,7 +1,7 @@
 <div class="navigation">
     <nav class="navbar navbar-expand-lg">
     <div class="container">
-        <a class="navbar-brand mr-lg-5 scroll-to" href="{{site.url}}" data-scroll-to="#header_slider"><img src="{{'assets/images/ccps_logo.png' | relative_url}}" alt="Pharmacy Services Central Coast" class=""></a>
+        <a class="navbar-brand mr-lg-5 scroll-to" href="{% link index.html %}" data-scroll-to="#header_slider"><img src="{{'assets/images/ccps_logo.png' | relative_url}}" alt="Pharmacy Services Central Coast" class=""></a>
         <!-- <strong class="navbar-brand mr-lg-5 scroll-to" href="<?php print WEB_ROOT; ?>" data-scroll-to="#header_slider"><strong><i class="fas fa-capsules"></i></strong></a> -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -10,7 +10,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav align-items-center">
                 <li class="nav-item">
-                    <a href="{{site.url}}#about" data-scroll-to="#about" class="scroll-to nav-link">About Us</a>
+                    <a href="{% link index.html %}#about" data-scroll-to="#about" class="scroll-to nav-link">About Us</a>
                 </li>
                 <li class="nav-item">
                     <a href="{% link what-is-long-term.html %}" title="What Is a Long Term Care Pharmacy?" class="nav-link">What is a LTC Pharmacy?</a>
@@ -23,7 +23,7 @@
             </ul>
             <ul class="navbar-nav align-items-center ml-auto">
                 <li class="nav-item">
-                    <a href="{{site.url}}#contact" class="scroll-to nav-link nav-cta btn rounded-pill btn-icon rounded-pill d-none d-lg-inline-flex" data-scroll-to="#contact">
+                    <a href="{% link index.html %}#contact" class="scroll-to nav-link nav-cta btn rounded-pill btn-icon rounded-pill d-none d-lg-inline-flex" data-scroll-to="#contact">
                     <span class="cta-icon"><i class="far fa-phone"></i></span>
                     <span class="cta-text">Contact Us</span>
                     </a>
