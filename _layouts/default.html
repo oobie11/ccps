@@ -32,9 +32,14 @@
     {% endif %}
   </head>
   <body id="page-top">
-  	{{ include navigation.html }}
-  	{{ include header.html }}
+  	{% include navigation.html %}
+  	
+    {% if page.url == '/' %}
+      {% include header.html %}
+    {% endif %}
+
     {{ content}}
-    {{ include footer.html }}
+    
+    {% include footer.html %}
   </body>
 </html>
