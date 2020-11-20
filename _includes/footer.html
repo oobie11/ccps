@@ -19,7 +19,6 @@
                 <label class="sr-only">You phone number</label>
                 <input class="form-control form-control-lg" placeholder="Phone number" type="text" name="phone">
               </div>
-              <div class="g-recaptcha" data-sitekey="6LfeluIUAAAAAPlRP3_ogJe__R3iflFxtrAT2_sU"></div>
               <button type="submit" class="btn btn-dark cta-btn rounded-pill mt-4">Send info</button>
             </form>
           </div>
@@ -57,7 +56,7 @@
                     </li>
                 </ul>
                 <p class="copyright text-muted">
-                    Copyright &copy; <a href="http://<?php print $_SERVER['HTTP_HOST'];?>">{{site.title}}</a> {{ site.time | date: '%y' }}
+                    Copyright &copy; <a href="{{site.url}}">{{site.title}}</a> {{ site.time | date: '%Y' }}
                 </p>
             </div>
         </div>
